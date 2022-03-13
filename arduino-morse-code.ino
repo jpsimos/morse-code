@@ -29,14 +29,14 @@ int verifyMessage(const char *str, const int len){
 }
 
 void loop() {
-  char *msg = "we remember";
+  char *msg = "stranded no gas";
   int i;
   int j;
   int len = strlen(msg);
   unsigned long unitLength = 1000;
   
   if(verifyMessage(msg, len)){
-    msg = "sos"; //invalid messages are changed to 'sos' (help me, I don't know) ^_^
+    msg = "sos"; //invalid messages are changed to 'sos'
     len = 3;
   }
 
